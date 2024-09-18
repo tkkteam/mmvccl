@@ -1,7 +1,7 @@
 import React from "react";
 import NavNpc from "../../components/NavNpc";
-import Image from "next/image";
 import Head from "next/head";
+import Image from "next/image";
 
 function Mira() {
 
@@ -9,7 +9,7 @@ function Mira() {
 
     <div className="bg-npc bg-cover flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
     <Head>
-        <title>แนะนำ NPC</title>
+        <title>แนะนำ NPC </title>
       </Head> 
       <NavNpc />
       
@@ -18,9 +18,8 @@ function Mira() {
             <Image 
              width={150}
              height={150}
-             src="/npc/Mira.png"
+             alt="Picture" src="/npc/Mira.png"
             objectFit="contain"
-            alt="avatar"
             className=" max-w-full h-auto "
           /> 
         </div>
@@ -39,9 +38,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Lumber_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Lumber_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -50,7 +48,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Amber">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Amber.png"/>
+      <Image width={35}height={35} alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Amber.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -60,7 +58,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Copper">
-      <Image width={35}height={35}src="/token/CopperPiece.png"/>
+      <Image width={35}height={35} alt="Picture" src="/token/CopperPiece.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -70,7 +68,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35} alt="Picture" src="/token/Iron.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -80,7 +78,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -101,9 +99,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Rock Picker Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Rock Picker Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -112,7 +109,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Pearl">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Pearl.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Pearl.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -122,7 +119,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Copper">
-      <Image width={35}height={35}src="/token/CopperPiece.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/CopperPiece.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -132,7 +129,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -142,7 +139,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -163,9 +160,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Smasher_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Smasher_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -174,7 +170,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Pearl">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -184,7 +180,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Copper">
-      <Image width={35}height={35}src="/token/CopperPiece.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/CopperPiece.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -194,7 +190,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -204,7 +200,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -226,9 +222,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Miner_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Miner_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -237,7 +232,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="onyx">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/onyx.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/onyx.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -247,7 +242,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Copper">
-      <Image width={35}height={35}src="/token/CopperPiece.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/CopperPiece.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -257,7 +252,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -267,7 +262,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -289,9 +284,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Orchid_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Orchid_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -300,7 +294,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="onyx">
-      <Image width={35}height={35}objectFit="contain"src="https://commumorning.firebaseapp.com/Jewels/Amethyst.png"/>
+      <Image width={35}height={35}objectFit="contain"alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Amethyst.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -310,7 +304,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="onyx">
-      <Image width={35}height={35}objectFit="contain"src="https://commumorning.firebaseapp.com/Jewels/onyx.png"/>
+      <Image width={35}height={35}objectFit="contain"alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/onyx.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -320,7 +314,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -330,7 +324,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Silver">
-      <Image width={35}height={35}objectFit="contain"src="/token/SilverPiece.png"/>
+      <Image width={35}height={35}objectFit="contain"alt="Picture" src="/token/SilverPiece.png"/>
      
       </div>
        </div>
@@ -341,7 +335,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -363,9 +357,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Arctic_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Arctic_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -374,7 +367,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Aquamarine">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Aquamarine.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Aquamarine.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -384,7 +377,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="onyx">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -394,7 +387,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -404,7 +397,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Silver">
-      <Image width={35}height={35}objectFit="contain"src="/token/SilverPiece.png"/>
+      <Image width={35}height={35}objectFit="contain"alt="Picture" src="/token/SilverPiece.png"/>
      
       </div>
        </div>
@@ -415,7 +408,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -437,9 +430,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Electric_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Electric_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -448,7 +440,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Topaz">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Topaz.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Topaz.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -458,7 +450,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Pearl">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Pearl.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Pearl.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -468,7 +460,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -478,7 +470,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Silver">
-      <Image width={35}height={35}objectFit="contain"src="/token/SilverPiece.png"/>
+      <Image width={35}height={35}objectFit="contain"alt="Picture" src="/token/SilverPiece.png"/>
      
       </div>
        </div>
@@ -489,7 +481,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -513,9 +505,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Rejuvenate_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Rejuvenate_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -524,7 +515,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Sapphire">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Sapphire.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Sapphire.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -534,7 +525,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Amber">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Amber.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Amber.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -544,7 +535,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Pearl">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Pearl.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Pearl.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -554,7 +545,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -564,7 +555,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Gold">
-      <Image width={35}height={35}objectFit="contain"src="/token/Gold.png"/>
+      <Image width={35}height={35}objectFit="contain"alt="Picture" src="/token/Gold.png"/>
      
       </div>
        </div>
@@ -575,7 +566,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -593,13 +584,13 @@ function Mira() {
     <h1 className="font-semibold text-blue-800">ลดพลังงานทั้งหมด 1% - 2%</h1>
     <h1 className="font-semibold text-blue-800">Add 1% to 2% base chance to Drop</h1>
     <div className="tooltip" data-tip="Noxious Fang">
-      <Image width={80}height={80}src="/token/Noxious Fang.png"/>
+      <Image width={80}height={80}alt="Picture" src="/token/Noxious Fang.png"/>
        </div>
        <div className="tooltip" data-tip="Golem Heart">
-      <Image width={80}height={80}src="/token/Golem Heart.png"/>
+      <Image width={80}height={80}alt="Picture" src="/token/Golem Heart.png"/>
        </div>
        <div className="tooltip" data-tip="Treant Spirit">
-      <Image width={80}height={80}src="/token/Treant Spirit.png"/>
+      <Image width={80}height={80}alt="Picture" src="/token/Treant Spirit.png"/>
        </div>
 
     <h1 className="font-semibold text-black">Random Modifier</h1>
@@ -608,9 +599,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Fortune_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Fortune_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -619,7 +609,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Emerald">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Emerald.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Emerald.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -629,7 +619,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Amber">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Amber.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Amber.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -639,7 +629,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Jade">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -649,7 +639,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -659,7 +649,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Gold">
-      <Image width={35}height={35}objectFit="contain"src="/token/Gold.png"/>
+      <Image width={35}height={35}objectFit="contain"alt="Picture" src="/token/Gold.png"/>
      
       </div>
        </div>
@@ -670,7 +660,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -694,9 +684,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Inferno_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Inferno_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -705,7 +694,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Ruby">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Ruby.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Ruby.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -715,7 +704,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Jade">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -725,7 +714,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="onyx">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/onyx.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/onyx.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -735,7 +724,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -745,7 +734,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Gold">
-      <Image width={35}height={35}objectFit="contain"src="/token/Gold.png"/>
+      <Image width={35}height={35}objectFit="contain"alt="Picture" src="/token/Gold.png"/>
      
       </div>
        </div>
@@ -756,7 +745,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -780,9 +769,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Brutal_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Brutal_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -791,7 +779,7 @@ function Mira() {
       <div className="flex items-center ">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Diamond">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Diamond.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Diamond.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -801,7 +789,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Amber">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Amber.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Amber.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -811,7 +799,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Pearl">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Pearl.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Pearl.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -821,7 +809,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Jade">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -831,7 +819,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="onyx">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/onyx.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/onyx.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -841,7 +829,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -851,7 +839,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Gold">
-      <Image width={35}height={35}objectFit="contain"src="/token/Gold.png"/>
+      <Image width={35}height={35}objectFit="contain"alt="Picture" src="/token/Gold.png"/>
      
       </div>
        </div>
@@ -862,7 +850,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">
@@ -887,9 +875,8 @@ function Mira() {
       <Image 
             width={150}
             height={150}
-            src="https://commumorning.firebaseapp.com/Jewels/Quantic_Jewel.png"
+            alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Quantic_Jewel.png"
             objectFit="cover"
-            alt="avatar"
           />
       </div>
       <div className="font-semibold badge badge-primary">ไอเทมที่ใช้คราฟ</div>
@@ -898,7 +885,7 @@ function Mira() {
       <div className="flex items-center ">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Alexandrite">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Alexandrite.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Alexandrite.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -908,7 +895,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Amber">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Amber.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Amber.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -918,7 +905,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Pearl">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Pearl.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Pearl.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -928,7 +915,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Jade">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/Jade.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -938,7 +925,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="onyx">
-      <Image width={35}height={35}src="https://commumorning.firebaseapp.com/Jewels/onyx.png"/>
+      <Image width={35}height={35}alt="Picture" src="https://commumorning.firebaseapp.com/Jewels/onyx.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -948,7 +935,7 @@ function Mira() {
       <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Crystal">
-      <Image width={35}height={35}src="/token/Crystal.png"/>
+      <Image width={35}height={35}alt="Picture" src="/token/Crystal.png"/>
        </div>
        </div>
       <div className="ml-3">
@@ -958,7 +945,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="Gold">
-      <Image width={35}height={35}objectFit="contain"src="/token/Gold.png"/>
+      <Image width={35}height={35}objectFit="contain"alt="Picture" src="/token/Gold.png"/>
      
       </div>
        </div>
@@ -969,7 +956,7 @@ function Mira() {
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
       <div className="tooltip" data-tip="LUMI">
-      <Image width={35}height={35}src="/item/lumi.png"/>
+      <Image width={35}height={35}alt="Picture" src="/item/lumi.png"/>
       </div>
        </div>
       <div className="ml-3">

@@ -21,9 +21,9 @@ function Mathilda() {
             <Image 
              width={150}
              height={150}
-             src="/npc/Mathilda.png"
+             alt="Picture" src="/npc/Mathilda.png"
             objectFit="contain"
-            alt="avatar"
+            
             className=" max-w-full h-auto "
           /> 
         </div>
@@ -32,63 +32,26 @@ function Mathilda() {
       </div>
 <div className="grid  grid-cols-2 gap-2 min-h-screen">
   <div className="flex-1">
-<div className="flex items-center p-3 bg-green-200 hover:bg-yellow-200 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-blue-500">
-          <label htmlFor="my-modal-1">
-          <Space wrap>
-      {colors.map((color) => (
-        <Tooltip title="คลิกดูข้อมูล" color={color} key={color}>
-         <Image 
-             width={90}
-             height={90}
+  <div className="dropdown dropdown-top dropdown-hover">
+  <div tabIndex={0}>
+  <Image 
+             width={50}
+             height={50}
              src="/token/Lesser Health Potion.png"
-             className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
+             alt="image"
           />
-        </Tooltip>
-      ))}
-    </Space>
-          </label>
-<input type="checkbox" id="my-modal-1" className="modal-toggle" />
-<div className="modal">
-  <div className="modal-box relative">
-  <label htmlFor="my-modal-1" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-  <div className="border-dashed border-2 border-indigo-600 text-center mt-2">
-  <h3 className=" font-bold text-lg text-red-600">ความสามารถ</h3>
-    <p className="text-yellow-600">ฟื้นฟู 20 HP</p>
-    <p className="py-4 "> 
-    <Image 
-             width={150}
-             height={150}
-             src="/token/Lesser Health Potion.png"
-             className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
-             
-          />
-      </p>
-    </div>
-  </div>   
-  </div>  
-  
-  <div className="flex flex-col justify-start ">
-  <p className=" text-black text-sm md:text-base md:truncate">Lesser Health Potion</p>
-  <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
-    <div className="grid  grid-cols-1  md:grid-cols-3 ">
-      
-      <div className="text-black">1X
-      <div className="tooltip" data-tip="Empty Bottle">
-      <Image width={35}height={35}src="/token/Empty Bottle.png"/></div>
-      </div>  
-      
-      <div className="text-black">2X
-      <div className="tooltip" data-tip="Red Herb">
-      <Image width={35}height={35}src="/token/RedHerb.png"/></div>
-      </div>
-    
-    
-    </div>
-    </p>
   </div>
+  <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[] w-64 p-2 shadow ">
+    <li><a><div className="text-black">2X
+      
+      <Image width={35}height={35}src="/token/RedHerb.png"/></div>
+     Red Herb</a></li>
+    <li><a><div className="text-black">1X
+    
+      <Image width={35}height={35}src="/token/Empty Bottle.png"/></div>
+    Empty Bottle </a></li>
+  </ul>
 </div>
-
 <div className="flex items-center p-3 bg-green-200 hover:bg-yellow-200 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-blue-500">
           <label htmlFor="my-modal-2">
           <Space wrap>
@@ -97,7 +60,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Health Potion.png"
+             alt="Picture" src="/token/Health Potion.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -115,7 +78,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Health Potion.png"
+             alt="Picture" src="/token/Health Potion.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -132,17 +95,17 @@ function Mathilda() {
       
       <div className="text-black">1X
       <div className="tooltip" data-tip="Empty Bottle">
-      <Image width={35}height={35}src="/token/Empty Bottle.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Empty Bottle.png"/></div>
       </div>  
       
       <div className="text-black">3X
       <div className="tooltip" data-tip="Milk">
-      <Image width={35}height={35}src="/token/milklumi.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/milklumi.png"/></div>
       </div>
     
       <div className="text-black">1X
       <div className="tooltip" data-tip="Honey">
-      <Image width={35}height={35}src="/token/Honey.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Honey.png"/></div>
       </div>
     </div>
     </div>
@@ -157,7 +120,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/corn-soup.png"
+             alt="Picture" src="/token/corn-soup.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -175,7 +138,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/corn-soup.png"
+             alt="Picture" src="/token/corn-soup.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -191,7 +154,7 @@ function Mathilda() {
     <div className="grid  grid-cols-1 md:grid-cols-1 ">
       <div className="text-black">10X
       <div className="tooltip" data-tip="corn">
-      <Image width={35}height={35}src="/token/corn.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/corn.png"/></div>
       </div>  
     </div>
     </div>
@@ -206,7 +169,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/DyeApple.png"
+             alt="Picture" src="/token/DyeApple.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -224,7 +187,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/DyeApple.png"
+             alt="Picture" src="/token/DyeApple.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -241,12 +204,12 @@ function Mathilda() {
       
       <div className="text-black">1X
       <div className="tooltip" data-tip="Red Apple">
-      <Image width={35}height={35}src="/token/Apple.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Apple.png"/></div>
       </div>  
       
       <div className="text-black">1X
       <div className="tooltip" data-tip="Green Apple">
-      <Image width={35}height={35}src="/token/GreenApple.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/GreenApple.png"/></div>
       </div>
     </div>
     </div>
@@ -261,7 +224,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Honey.png"
+             alt="Picture" src="/token/Honey.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -279,7 +242,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Honey.png"
+             alt="Picture" src="/token/Honey.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -296,7 +259,7 @@ function Mathilda() {
       
       <div className="text-black">2X
       <div className="tooltip" data-tip="HoneyComb">
-      <Image width={35}height={35}src="/token/HoneyComb.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/HoneyComb.png"/></div>
       </div>  
     </div>
     </div>
@@ -311,7 +274,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Stone Hammer.png"
+             alt="Picture" src="/token/Stone Hammer.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -333,7 +296,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Stone Hammer.png"
+             alt="Picture" src="/token/Stone Hammer.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -350,11 +313,11 @@ function Mathilda() {
       
       <div className="text-black ">30X
       <div className="tooltip" data-tip="Wood">
-      <Image width={35}height={35}src="/token/Wood.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Wood.png"/></div>
       </div>  
       <div className="text-black">120X
       <div className="tooltip" data-tip="Stone">
-      <Image width={35}height={35}src="/token/Stone.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Stone.png"/></div>
       </div> 
     </div>
     </div>
@@ -369,7 +332,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Wooden Club.png"
+             alt="Picture" src="/token/Wooden Club.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -391,7 +354,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Wooden Club.png"
+             alt="Picture" src="/token/Wooden Club.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -408,7 +371,7 @@ function Mathilda() {
       
       <div className="text-black">120X
       <div className="tooltip" data-tip="Wood">
-      <Image width={35}height={35}src="/token/Wood.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Wood.png"/></div>
       </div>  
       
     </div>
@@ -424,7 +387,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Breeding foam.png"
+             alt="Picture" src="/token/Breeding foam.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -442,7 +405,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Breeding foam.png"
+             alt="Picture" src="/token/Breeding foam.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -459,7 +422,7 @@ function Mathilda() {
       
       <div className="text-black">20X
       <div className="tooltip" data-tip="Bubble">
-      <Image width={35}height={35}src="/token/Bubble.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Bubble.png"/></div>
       </div>  
       
     </div>
@@ -475,7 +438,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/OtherworldlyBox.png"
+             alt="Picture" src="/token/OtherworldlyBox.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -499,7 +462,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/OtherworldlyBox.png"
+             alt="Picture" src="/token/OtherworldlyBox.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -516,11 +479,11 @@ function Mathilda() {
       
       <div className="text-black">1X
       <div className="tooltip" data-tip="Conjuring Chest">
-      <Image width={35}height={35}src="/token/conjuring_chest.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/conjuring_chest.png"/></div>
       </div>  
       <div className="text-black">5X
       <div className="tooltip" data-tip="Otherworldly Dust">
-      <Image width={35}height={35}src="/token/otherworldly_dust.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/otherworldly_dust.png"/></div>
       </div> 
     </div>
     </div>
@@ -534,7 +497,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/AquariumII.png"
+             alt="Picture" src="/token/AquariumII.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -558,7 +521,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/AquariumII.png"
+             alt="Picture" src="/token/AquariumII.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -575,7 +538,7 @@ function Mathilda() {
       
       <div className="text-black">3X
       <div className="tooltip" data-tip="Aquarium Ticket">
-      <Image width={35}height={35}src="/token/aquarium ticket.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/aquarium ticket.png"/></div>
       </div> 
     </div>
     </div>
@@ -590,7 +553,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/OrangeBox.png"
+             alt="Picture" src="/token/OrangeBox.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -614,7 +577,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/OrangeBox.png"
+             alt="Picture" src="/token/OrangeBox.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -631,7 +594,7 @@ function Mathilda() {
       
       <div className="text-black">1,000X
       <div className="tooltip" data-tip="Fish Food">
-      <Image width={35}height={35}src="/token/fish_food.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/fish_food.png"/></div>
       </div>  
 
     </div>
@@ -647,7 +610,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/BRONZE HATCHET.png"
+             alt="Picture" src="/token/BRONZE HATCHET.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -670,7 +633,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/BRONZE HATCHET.png"
+             alt="Picture" src="/token/BRONZE HATCHET.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -687,11 +650,11 @@ function Mathilda() {
       
       <div className="text-black">200X
       <div className="tooltip" data-tip="Wood">
-      <Image width={35}height={35}src="/token/Wood.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Wood.png"/></div>
       </div>  
       <div className="text-black">30X
       <div className="tooltip" data-tip="Copper">
-      <Image width={35}height={35}src="/token/CopperPiece.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/CopperPiece.png"/></div>
       </div>  
     </div>
     </div>
@@ -706,7 +669,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/BRONZE MACE.png"
+             alt="Picture" src="/token/BRONZE MACE.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -729,7 +692,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/BRONZE MACE.png"
+             alt="Picture" src="/token/BRONZE MACE.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -746,15 +709,15 @@ function Mathilda() {
       
       <div className="text-black">100X
       <div className="tooltip" data-tip="Wood">
-      <Image width={35}height={35}src="/token/Wood.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Wood.png"/></div>
       </div>  
       <div className="text-black">100X
       <div className="tooltip" data-tip="Stone">
-      <Image width={35}height={35}src="/token/Stone.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Stone.png"/></div>
       </div>  
       <div className="text-black">30X
       <div className="tooltip" data-tip="Copper">
-      <Image width={35}height={35}src="/token/CopperPiece.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/CopperPiece.png"/></div>
       </div>  
     </div>
     </div>
@@ -769,7 +732,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Silkslipper.png"
+             alt="Picture" src="/token/Silkslipper.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -791,7 +754,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Silkslipper.png"
+             alt="Picture" src="/token/Silkslipper.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -808,11 +771,11 @@ function Mathilda() {
       
       <div className="text-black">30X
       <div className="tooltip" data-tip="Wood">
-      <Image width={35}height={35}src="/token/Wood.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Wood.png"/></div>
       </div>    
       <div className="text-black">30X
       <div className="tooltip" data-tip="leather">
-      <Image width={35}height={35}src="/token/leather.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/leather.png"/></div>
       </div>  
     </div>
     </div>
@@ -827,7 +790,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Tree branch ring.png"
+             alt="Picture" src="/token/Tree branch ring.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -847,7 +810,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Tree branch ring.png"
+             alt="Picture" src="/token/Tree branch ring.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -864,11 +827,11 @@ function Mathilda() {
       
       <div className="text-black">30X
       <div className="tooltip" data-tip="Wood">
-      <Image width={35}height={35}src="/token/Wood.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Wood.png"/></div>
       </div>    
       <div className="text-black">10X
       <div className="tooltip" data-tip="HoneyCombr">
-      <Image width={35}height={35}src="/token/HoneyComb.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/HoneyComb.png"/></div>
       </div>  
     </div>
     </div>
@@ -883,7 +846,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/egg/Sky Dotted.png"
+             alt="Picture" src="/egg/Sky Dotted.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -909,7 +872,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/egg/Sky Dotted.png"
+             alt="Picture" src="/egg/Sky Dotted.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -926,23 +889,23 @@ function Mathilda() {
       
       <div className="text-black">400X
       <div className="tooltip" data-tip="Grass">
-      <Image width={35}height={35}src="/token/Grass.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Grass.png"/></div>
       </div>    
       <div className="text-black">25X
       <div className="tooltip" data-tip="Tomato">
-      <Image width={35}height={35}src="/token/Tomato.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Tomato.png"/></div>
       </div> 
       <div className="text-black">50X
       <div className="tooltip" data-tip="corn">
-      <Image width={35}height={35}src="/token/corn.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/corn.png"/></div>
       </div> 
       <div className="text-black">10X
       <div className="tooltip" data-tip="Mangosteen">
-      <Image width={35}height={35}src="/token/mangosteen.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/mangosteen.png"/></div>
       </div> 
       <div className="text-black">1X
       <div className="tooltip" data-tip="Milke Chick">
-      <Image width={35}height={35}src="/token/MilkeChick.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/MilkeChick.png"/></div>
       </div>   
     </div>
     </div>
@@ -957,7 +920,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/egg/Gloomy Dotted.png"
+             alt="Picture" src="/egg/Gloomy Dotted.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -983,7 +946,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/egg/Gloomy Dotted.png"
+             alt="Picture" src="/egg/Gloomy Dotted.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1000,23 +963,23 @@ function Mathilda() {
       
       <div className="text-black">100X
       <div className="tooltip" data-tip="Tomato">
-      <Image width={35}height={35}src="/token/Tomato.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Tomato.png"/></div>
       </div>    
       <div className="text-black">100X
       <div className="tooltip" data-tip="corn">
-      <Image width={35}height={35}src="/token/corn.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/corn.png"/></div>
       </div> 
       <div className="text-black">100X
       <div className="tooltip" data-tip="cabbage">
-      <Image width={35}height={35}src="/token/cabbage.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/cabbage.png"/></div>
       </div> 
       <div className="text-black">10X
       <div className="tooltip" data-tip="Mangosteen">
-      <Image width={35}height={35}src="/token/mangosteen.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/mangosteen.png"/></div>
       </div> 
       <div className="text-black">1X
       <div className="tooltip" data-tip="Ebony Chick">
-      <Image width={35}height={35}src="/token/Ebony chick.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Ebony chick.png"/></div>
       </div>   
     </div>
     </div>
@@ -1031,7 +994,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/images/white cupid.png"
+             alt="Picture" src="/images/white cupid.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1057,7 +1020,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/images/white cupid.png"
+             alt="Picture" src="/images/white cupid.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1074,23 +1037,23 @@ function Mathilda() {
       
       <div className="text-black">200X
       <div className="tooltip" data-tip="leather">
-      <Image width={35}height={35}src="/token/leather.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/leather.png"/></div>
       </div>    
       <div className="text-black">10X
       <div className="tooltip" data-tip="Mangosteen">
-      <Image width={35}height={35}src="/token/mangosteen.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/mangosteen.png"/></div>
       </div> 
       <div className="text-black">50X
       <div className="tooltip" data-tip="Shiitake Mushroom">
-      <Image width={35}height={35}src="/token/Shiitake.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Shiitake.png"/></div>
       </div> 
       <div className="text-black">10X
       <div className="tooltip" data-tip="Angel Feather">
-      <Image width={35}height={35}src="/token/Angel.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Angel.png"/></div>
       </div> 
       <div className="text-black">1X
       <div className="tooltip" data-tip="Milke Chick">
-      <Image width={35}height={35}src="/token/MilkeChick.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/MilkeChick.png"/></div>
       </div>   
     </div>
     </div>
@@ -1108,7 +1071,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Health Potion.png"
+             alt="Picture" src="/token/Health Potion.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1126,7 +1089,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Health Potion.png"
+             alt="Picture" src="/token/Health Potion.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1143,19 +1106,19 @@ function Mathilda() {
       
       <div className="text-black">1X
       <div className="tooltip" data-tip="Empty Bottle">
-      <Image width={35}height={35}src="/token/Empty Bottle.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Empty Bottle.png"/></div>
       </div>  
       <div className="text-black">2X
       <div className="tooltip" data-tip="Red Herb">
-      <Image width={35}height={35}src="/token/RedHerb.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/RedHerb.png"/></div>
       </div>
       <div className="text-black">2X
       <div className="tooltip" data-tip="Green Herb">
-      <Image width={35}height={35}src="/token/GreenHerb.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/GreenHerb.png"/></div>
       </div>
       <div className="text-black">1X
       <div className="tooltip" data-tip="Honey">
-      <Image width={35}height={35}src="/token/Honey.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Honey.png"/></div>
       </div>
     </div>
     </div>
@@ -1170,7 +1133,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Tomato Soup.png"
+             alt="Picture" src="/token/Tomato Soup.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1188,7 +1151,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Tomato Soup.png"
+             alt="Picture" src="/token/Tomato Soup.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1205,7 +1168,7 @@ function Mathilda() {
       
       <div className="text-black">10X
       <div className="tooltip" data-tip="Tomato">
-      <Image width={35}height={35}src="/token/Tomato.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Tomato.png"/></div>
       </div>  
     </div>
     </div>
@@ -1220,7 +1183,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Stir Fried Cabbage.png"
+             alt="Picture" src="/token/Stir Fried Cabbage.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1238,7 +1201,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Stir Fried Cabbage.png"
+             alt="Picture" src="/token/Stir Fried Cabbage.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1255,7 +1218,7 @@ function Mathilda() {
       
       <div className="text-black">10X
       <div className="tooltip" data-tip="Cabbage">
-      <Image width={35}height={35}src="/token/cabbage.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/cabbage.png"/></div>
       </div>  
     </div>
     </div>
@@ -1270,7 +1233,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Salad.png"
+             alt="Picture" src="/token/Salad.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1288,7 +1251,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Salad.png"
+             alt="Picture" src="/token/Salad.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1305,15 +1268,15 @@ function Mathilda() {
       
       <div className="text-black">4X
       <div className="tooltip" data-tip="corn">
-      <Image width={35}height={35}src="/token/corn.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/corn.png"/></div>
       </div> 
       <div className="text-black">4X
       <div className="tooltip" data-tip="Cabbage">
-      <Image width={35}height={35}src="/token/cabbage.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/cabbage.png"/></div>
       </div>  
       <div className="text-black">1X
       <div className="tooltip" data-tip="Honey">
-      <Image width={35}height={35}src="/token/Honey.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Honey.png"/></div>
       </div> 
     </div>
     </div>
@@ -1328,7 +1291,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Stone Aex.png"
+             alt="Picture" src="/token/Stone Aex.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1350,7 +1313,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Stone Aex.png"
+             alt="Picture" src="/token/Stone Aex.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1367,11 +1330,11 @@ function Mathilda() {
       
       <div className="text-black ">120X
       <div className="tooltip" data-tip="Wood">
-      <Image width={35}height={35}src="/token/Wood.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Wood.png"/></div>
       </div>  
       <div className="text-black">30X
       <div className="tooltip" data-tip="Stone">
-      <Image width={35}height={35}src="/token/Stone.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Stone.png"/></div>
       </div> 
     </div>
     </div>
@@ -1386,7 +1349,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Stone Sickle.png"
+             alt="Picture" src="/token/Stone Sickle.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1408,7 +1371,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Stone Sickle.png"
+             alt="Picture" src="/token/Stone Sickle.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1425,11 +1388,11 @@ function Mathilda() {
       
       <div className="text-black ">60X
       <div className="tooltip" data-tip="Wood">
-      <Image width={35}height={35}src="/token/Wood.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Wood.png"/></div>
       </div>  
       <div className="text-black">60X
       <div className="tooltip" data-tip="Stone">
-      <Image width={35}height={35}src="/token/Stone.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Stone.png"/></div>
       </div> 
     </div>
     </div>
@@ -1444,7 +1407,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Fruit Salad.png"
+             alt="Picture" src="/token/Fruit Salad.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1462,7 +1425,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Fruit Salad.png"
+             alt="Picture" src="/token/Fruit Salad.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1479,19 +1442,19 @@ function Mathilda() {
       
       <div className="text-black">2X
       <div className="tooltip" data-tip="Red Apple">
-      <Image width={35}height={35}src="/token/Apple.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Apple.png"/></div>
       </div> 
       <div className="text-black">2X
       <div className="tooltip" data-tip="GreenApple">
-      <Image width={35}height={35}src="/token/GreenApple.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/GreenApple.png"/></div>
       </div>  
       <div className="text-black">1X
       <div className="tooltip" data-tip="Banana">
-      <Image width={35}height={35}src="/token/Banana.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Banana.png"/></div>
       </div> 
       <div className="text-black">1X
       <div className="tooltip" data-tip="Honey">
-      <Image width={35}height={35}src="/token/Honey.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Honey.png"/></div>
       </div> 
     </div>
     </div>
@@ -1506,7 +1469,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Breeding Elixir.png"
+             alt="Picture" src="/token/Breeding Elixir.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1524,7 +1487,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Breeding Elixir.png"
+             alt="Picture" src="/token/Breeding Elixir.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1541,7 +1504,7 @@ function Mathilda() {
       
       <div className="text-black">20X
       <div className="tooltip" data-tip="teardrop">
-      <Image width={35}height={35}src="/token/teardrop.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/teardrop.png"/></div>
       </div> 
     </div>
     </div>
@@ -1556,7 +1519,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Aquarium.png"
+             alt="Picture" src="/token/Aquarium.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1580,7 +1543,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Aquarium.png"
+             alt="Picture" src="/token/Aquarium.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1597,7 +1560,7 @@ function Mathilda() {
       
       <div className="text-black">3X
       <div className="tooltip" data-tip="Aquarium Ticket">
-      <Image width={35}height={35}src="/token/aquarium ticket.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/aquarium ticket.png"/></div>
       </div> 
     </div>
     </div>
@@ -1612,7 +1575,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/OrangeBox.png"
+             alt="Picture" src="/token/OrangeBox.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1636,7 +1599,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/OrangeBox.png"
+             alt="Picture" src="/token/OrangeBox.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1653,15 +1616,15 @@ function Mathilda() {
       
       <div className="text-black">600X
       <div className="tooltip" data-tip="Fish Food">
-      <Image width={35}height={35}src="/token/fish_food.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/fish_food.png"/></div>
       </div>  
       <div className="text-black">50X
       <div className="tooltip" data-tip="Living Branch">
-      <Image width={35}height={35}src="/token/Living Branch.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Living Branch.png"/></div>
       </div>  
       <div className="text-black">10X
       <div className="tooltip" data-tip="Tainted Leaf">
-      <Image width={35}height={35}src="/token/Tainted Leaf.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Tainted Leaf.png"/></div>
       </div>  
     </div>
     </div>
@@ -1676,7 +1639,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/BRONZE MAUL.png"
+             alt="Picture" src="/token/BRONZE MAUL.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1699,7 +1662,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/BRONZE MAUL.png"
+             alt="Picture" src="/token/BRONZE MAUL.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1716,11 +1679,11 @@ function Mathilda() {
       
       <div className="text-black">200X
       <div className="tooltip" data-tip="Stone">
-      <Image width={35}height={35}src="/token/Stone.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Stone.png"/></div>
       </div>    
       <div className="text-black">30X
       <div className="tooltip" data-tip="Copper">
-      <Image width={35}height={35}src="/token/CopperPiece.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/CopperPiece.png"/></div>
       </div>  
     </div>
     </div>
@@ -1735,7 +1698,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Gloves.png"
+             alt="Picture" src="/token/Gloves.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1757,7 +1720,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Gloves.png"
+             alt="Picture" src="/token/Gloves.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1774,7 +1737,7 @@ function Mathilda() {
       
       <div className="text-black">50X
       <div className="tooltip" data-tip="leather">
-      <Image width={35}height={35}src="/token/leather.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/leather.png"/></div>
       </div>    
     </div>
     </div>
@@ -1789,7 +1752,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/boots.png"
+             alt="Picture" src="/token/boots.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1811,7 +1774,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/boots.png"
+             alt="Picture" src="/token/boots.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1828,11 +1791,11 @@ function Mathilda() {
       
       <div className="text-black">30X
       <div className="tooltip" data-tip="leather">
-      <Image width={35}height={35}src="/token/leather.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/leather.png"/></div>
       </div>  
       <div className="text-black">50X
       <div className="tooltip" data-tip="Iron">
-      <Image width={35}height={35}src="/token/Iron.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Iron.png"/></div>
       </div>   
     </div>
     </div>
@@ -1847,7 +1810,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/egg/Cherry Dotted.png"
+             alt="Picture" src="/egg/Cherry Dotted.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1873,7 +1836,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/egg/Cherry Dotted.png"
+             alt="Picture" src="/egg/Cherry Dotted.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1890,19 +1853,19 @@ function Mathilda() {
       
       <div className="text-black">400X
       <div className="tooltip" data-tip="Grass">
-      <Image width={35}height={35}src="/token/Grass.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Grass.png"/></div>
       </div>    
       <div className="text-black">10X
       <div className="tooltip" data-tip="Apple">
-      <Image width={35}height={35}src="/token/Apple.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Apple.png"/></div>
       </div> 
       <div className="text-black">5X
       <div className="tooltip" data-tip="Mangosteen">
-      <Image width={35}height={35}src="/token/mangosteen.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/mangosteen.png"/></div>
       </div> 
       <div className="text-black">1X
       <div className="tooltip" data-tip="Milke Chick">
-      <Image width={35}height={35}src="/token/MilkeChick.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/MilkeChick.png"/></div>
       </div>   
     </div>
     </div>
@@ -1917,7 +1880,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/egg/Grassy Dotted.png"
+             alt="Picture" src="/egg/Grassy Dotted.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -1943,7 +1906,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/egg/Grassy Dotted.png"
+             alt="Picture" src="/egg/Grassy Dotted.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -1960,23 +1923,23 @@ function Mathilda() {
       
       <div className="text-black">400X
       <div className="tooltip" data-tip="Grass">
-      <Image width={35}height={35}src="/token/Grass.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Grass.png"/></div>
       </div>    
       <div className="text-black">25X
       <div className="tooltip" data-tip="Tomato">
-      <Image width={35}height={35}src="/token/Tomato.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Tomato.png"/></div>
       </div> 
       <div className="text-black">50X
       <div className="tooltip" data-tip="cabbage">
-      <Image width={35}height={35}src="/token/cabbage.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/cabbage.png"/></div>
       </div>
       <div className="text-black">10X
       <div className="tooltip" data-tip="Mangosteen">
-      <Image width={35}height={35}src="/token/mangosteen.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/mangosteen.png"/></div>
       </div> 
       <div className="text-black">1X
       <div className="tooltip" data-tip="Milke Chick">
-      <Image width={35}height={35}src="/token/MilkeChick.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/MilkeChick.png"/></div>
       </div>   
     </div>
     </div>
@@ -1991,7 +1954,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/rakalai.png"
+             alt="Picture" src="/token/rakalai.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -2009,7 +1972,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/rakalai.png"
+             alt="Picture" src="/token/rakalai.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -2026,7 +1989,7 @@ function Mathilda() {
       
       <div className="text-black">5X
       <div className="tooltip" data-tip="Gilded Chick">
-      <Image width={35}height={35}src="/token/gilded chick.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/gilded chick.png"/></div>
       </div>    
     </div>
     </div>
@@ -2041,7 +2004,7 @@ function Mathilda() {
          <Image 
              width={90}
              height={90}
-             src="/token/Dark cupid.png"
+             alt="Picture" src="/token/Dark cupid.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
           />
         </Tooltip>
@@ -2066,7 +2029,7 @@ function Mathilda() {
     <Image 
              width={150}
              height={150}
-             src="/token/Dark cupid.png"
+             alt="Picture" src="/token/Dark cupid.png"
              className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -2083,23 +2046,23 @@ function Mathilda() {
       
     <div className="text-black">200X
       <div className="tooltip" data-tip="Copper">
-      <Image width={35}height={35}src="/token/CopperPiece.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/CopperPiece.png"/></div>
       </div>    
       <div className="text-black">10X
       <div className="tooltip" data-tip="Mangosteen">
-      <Image width={35}height={35}src="/token/mangosteen.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/mangosteen.png"/></div>
       </div> 
       <div className="text-black">50X
       <div className="tooltip" data-tip="KingTrumpet">
-      <Image width={35}height={35}src="/token/KingTrumpet.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/KingTrumpet.png"/></div>
       </div> 
       <div className="text-black">10X
       <div className="tooltip" data-tip="Angel Feather">
-      <Image width={35}height={35}src="/token/Angel.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Angel.png"/></div>
       </div> 
       <div className="text-black">1X
       <div className="tooltip" data-tip="Ebony Chick">
-      <Image width={35}height={35}src="/token/Ebony chick.png"/></div>
+      <Image width={35}height={35}alt="Picture" src="/token/Ebony chick.png"/></div>
       </div>     
     </div>
     </div>

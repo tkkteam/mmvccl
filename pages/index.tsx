@@ -421,8 +421,8 @@ function Home() {
     ประกาศ
   </div>
   <div className="border border-t-0 border-red-400 rounded-b bg-red-100 px-4 py-3 text-red-700">
-    <p>- เว็บไซต์นี้จะหมดอายุในภายใน เดือน กันยายน 2567 ผมขอขอบคุณทุกการสนับสนุน เพื่อนๆยังคงสามารถใช้งานได้จนกว่าเว็บจะปิดตัวลง (อาจมีการเปลี่ยนแปลงตามสถานะการ)</p>
-    <p className= "text-blue-600">- อัพเดทตารางคำนวณผลผลิตล่าสุด ขออภัยที่อัพเดทล้าช้า</p>
+    <p className= "text-blue-600">- อัพเดทตารางคำนวณผลผลิตล่าสุด</p>
+    <p className= "text-blue-600">- อัพเดทเพิ่มเติม เพิ่มมอนสเตอร์ PADORA และ มอนสเตอร์ Ghost</p>
   </div>
 </div>
           <Image 
@@ -681,19 +681,27 @@ function Home() {
     <li>
     <Link href="/tutorials/Monster">
     <a target="_blank">
-    <p className="text-blue-600">มอนสเตอร์</p>
+    <p className="text-blue-600">มอนสเตอร์ ทั่วไป</p>
      </a>
      </Link>
      </li>
      <li>
      <Link href="/tutorials/MonsterIsLand">
     <a target="_blank">
-    <p className="text-blue-600">มอนสเตอร์ IsLand</p>
+    <p className="text-blue-600">มอนสเตอร์ PADORA</p>
      </a>
      </Link>
     
       </li>
+      <li>
+     <Link href="/tutorials/Monsterghost">
+    <a target="_blank">
+    <p className="text-blue-600">มอนสเตอร์ วิณญาณ</p>
+     </a>
+     </Link>
+      </li>
   </ul>
+  
     </div>
     </div>
 

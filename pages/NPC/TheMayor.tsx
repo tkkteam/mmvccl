@@ -21,9 +21,8 @@ function TheMayor() {
             <Image 
              width={150}
              height={150}
-             src="/npc/Themayor.png"
+             alt="Picture" src="/npc/Themayor.png"
             objectFit="contain"
-            alt="avatar"
             className=" max-w-full h-auto "
           /> 
         </div>
@@ -40,7 +39,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/Empty Bottle.png"
+             alt="Picture" src="/token/Empty Bottle.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -61,7 +60,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/Empty Bottle.png"
+             alt="Picture" src="/token/Empty Bottle.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -79,7 +78,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/Health Potion.png"
+             alt="Picture" src="/token/Health Potion.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -98,7 +97,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/Health Potion.png"
+             alt="Picture" src="/token/Health Potion.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -116,7 +115,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/Magic Solution.png"
+             alt="Picture" src="/token/Magic Solution.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -135,7 +134,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/Magic Solution.png"
+             alt="Picture" src="/token/Magic Solution.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -153,7 +152,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/Bulky.png"
+             alt="Picture" src="/token/Bulky.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -178,7 +177,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/Bulky.png"
+             alt="Picture" src="/token/Bulky.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -196,7 +195,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/MorningBox.png"
+             alt="Picture" src="/token/MorningBox.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -221,7 +220,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/MorningBox.png"
+             alt="Picture" src="/token/MorningBox.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -239,7 +238,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/Breeding foam.png"
+             alt="Picture" src="/token/Breeding foam.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -258,7 +257,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/Breeding foam.png"
+             alt="Picture" src="/token/Breeding foam.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -276,7 +275,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/BRONZE HATCHET.png"
+             alt="Picture" src="/token/BRONZE HATCHET.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -303,7 +302,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/BRONZE HATCHET.png"
+             alt="Picture" src="/token/BRONZE HATCHET.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -321,7 +320,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/BRONZE MACE.png"
+             alt="Picture" src="/token/BRONZE MACE.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -348,7 +347,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/BRONZE MACE.png"
+             alt="Picture" src="/token/BRONZE MACE.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -369,7 +368,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/Lesser Health Potion.png"
+             alt="Picture" src="/token/Lesser Health Potion.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -388,7 +387,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/Lesser Health Potion.png"
+             alt="Picture" src="/token/Lesser Health Potion.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -407,7 +406,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/key.png"
+             alt="Picture" src="/token/key.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -426,7 +425,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/key.png"
+             alt="Picture" src="/token/key.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -445,7 +444,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/AngelicBox.png"
+             alt="Picture" src="/token/AngelicBox.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -470,7 +469,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/AngelicBox.png"
+             alt="Picture" src="/token/AngelicBox.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -489,7 +488,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/GemstoneBox.png"
+             alt="Picture" src="/token/GemstoneBox.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -514,7 +513,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/GemstoneBox.png"
+             alt="Picture" src="/token/GemstoneBox.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -533,7 +532,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/mangosteen.png"
+             alt="Picture" src="/token/mangosteen.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -555,7 +554,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/mangosteen.png"
+             alt="Picture" src="/token/mangosteen.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -574,7 +573,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/Breeding Elixir.png"
+             alt="Picture" src="/token/Breeding Elixir.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -596,7 +595,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/Breeding Elixir.png"
+             alt="Picture" src="/token/Breeding Elixir.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -615,7 +614,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/BRONZE MAUL.png"
+             alt="Picture" src="/token/BRONZE MAUL.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -642,7 +641,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/BRONZE MAUL.png"
+             alt="Picture" src="/token/BRONZE MAUL.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -661,7 +660,7 @@ function TheMayor() {
          <Image 
              width={90}
              height={90}
-             src="/token/SIMPLE CAPE.png"
+             alt="Picture" src="/token/SIMPLE CAPE.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
@@ -688,7 +687,7 @@ function TheMayor() {
     <Image 
              width={150}
              height={150}
-             src="/token/SIMPLE CAPE.png"
+             alt="Picture" src="/token/SIMPLE CAPE.png"
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
