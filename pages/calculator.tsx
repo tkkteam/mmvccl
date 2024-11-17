@@ -532,7 +532,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("TOMATO");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(2);
+                      setRewardMultiplier(1);
                       break;
                    
                   }
@@ -549,7 +549,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("CORN");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(2);
+                      setRewardMultiplier(1);
                       break;
                    
                   }
@@ -566,7 +566,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("CABBAGE");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(2);
+                      setRewardMultiplier(1);
                       break;
                    
                   }
@@ -599,7 +599,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("COFFEE");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(2);
+                      setRewardMultiplier(1);
                       break;
                     
                   }
@@ -615,7 +615,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("FISHFOOD");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(12);
+                      setRewardMultiplier(8);
                       break;
                    
                   }
@@ -631,7 +631,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("BLUEBERRY");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(2);
+                      setRewardMultiplier(4);
                       break;
                    
                   }
